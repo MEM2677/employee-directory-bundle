@@ -1,0 +1,8 @@
+image: jangalian/employee-directory:0.0.22-SNAPSHOT
+dbms: none
+healthCheckPath: "/management/health"
+ingressPath: "/directory"
+roles:
+  - "rubrica-admin"
+  - "rubrica-admin"
+# entando-needle-descriptor-add-roles - Entando blueprint will add roles here
