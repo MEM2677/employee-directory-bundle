@@ -1,6 +1,6 @@
 image: jangalian/employee-directory:0.0.1-SNAPSHOT
 dbms: none
-healthCheckPath: "/management/health"
+healthCheckPath: "/actuator/health"
 ingressPath: "/directory"
 roles:
   - "rubrica-admin"
