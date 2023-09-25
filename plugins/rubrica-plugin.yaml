@@ -1,4 +1,4 @@
-image: jangalian/employee-directory:0.0.1-SNAPSHOT
+image: jangalian/employee-directory:0.0.2-SNAPSHOT
 dbms: none
 healthCheckPath: "/actuator/health"
 ingressPath: "/directory"
