@@ -5,7 +5,6 @@ components:
   plugins:
     - plugins/rubrica-plugin.yaml
 
-#  widgets:
-#    - ui/widgets/widget-dir/fe-react-app/iedx-widget-descriptor.yaml
+  widgets:
+    - ui/widgets/widget-dir/employee-list/employee-list-widget-descriptor.yaml
 # entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
-
