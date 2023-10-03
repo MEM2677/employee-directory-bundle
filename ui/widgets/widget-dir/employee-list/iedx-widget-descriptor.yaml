@@ -1,0 +1,6 @@
+code: iedx-app
+titles:
+  en: Employee list MFE
+  it: Lista Impiegati MFE
+group: free
+customUiPath: employee-list.ftl
