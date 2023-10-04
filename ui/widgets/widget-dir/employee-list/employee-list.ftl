@@ -12,11 +12,11 @@
 <link href="<@wp.resourceURL />RUBRICA-BUNDLE/static/css/interne.min.css" ref="stylesheet" />
 -->
 
-<@wp.headInfo type="CSS" var="<@wp.resourceURL />RUBRICA-BUNDLE/static/css/bootstrap-italia_1.2.0.min.css" ref="stylesheet">
-<@wp.headInfo type="CSS" var="<@wp.resourceURL />RUBRICA-BUNDLE/static/css/angular-material.min.css" ref="stylesheet">
-<@wp.headInfo type="CSS" var="<@wp.resourceURL />RUBRICA-BUNDLE/static/css/cagliari.min.css" ref="stylesheet">
-<@wp.headInfo type="CSS" var="<@wp.resourceURL />RUBRICA-BUNDLE/static/css/sezioni.min.css" ref="stylesheet">
-<@wp.headInfo type="CSS" var="<@wp.resourceURL />RUBRICA-BUNDLE/static/css/interne.min.css" ref="stylesheet">
+<@wp.headInfo type="CSS" var="<@wp.resourceURL />RUBRICA-BUNDLE/static/css/bootstrap-italia_1.2.0.min.css" />
+<@wp.headInfo type="CSS" var="<@wp.resourceURL />RUBRICA-BUNDLE/static/css/angular-material.min.css" />
+<@wp.headInfo type="CSS" var="<@wp.resourceURL />RUBRICA-BUNDLE/static/css/cagliari.min.css" />
+<@wp.headInfo type="CSS" var="<@wp.resourceURL />RUBRICA-BUNDLE/static/css/sezioni.min.css" />
+<@wp.headInfo type="CSS" var="<@wp.resourceURL />RUBRICA-BUNDLE/static/css/interne.min.css" />
 
 <@wp.info key="currentLang" var="currentLangVar" />
 <employee-list locale="${currentLangVar}"/>
