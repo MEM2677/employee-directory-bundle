@@ -1,5 +1,5 @@
 <#assign wp=JspTaglibs["/aps-core"]>
-<script src="<@wp.resourceURL />RUBRICA-BUNDLE/static/js/main.ed4a0017.js"></script>
+<script src="<@wp.resourceURL />RUBRICA-BUNDLE/static/js/main.bc7edea3.js"></script>
 <link href="<@wp.resourceURL />RUBRICA-BUNDLE/static/css/main.31d6cfe0.css" rel="stylesheet">
 <#-- entando_resource_injection_point -->
 <#-- Don't add anything above this line. The build scripts will automatically link the compiled JS and CSS for you and add them above this line so that the widget can be loaded-->
@@ -10,6 +10,6 @@
 <@wp.headInfo type="CSS" info="/RUBRICA-BUNDLE/static/css/sezioni.min.css" />
 <@wp.headInfo type="CSS" info="/RUBRICA-BUNDLE/static/css/interne.min.css" />
 
-<@wp.ifAuthorized permission="enterBackend" var="isIntranet" />
+<@wp.ifauthorized permission="enterBackend" var="isIntranet" />
 <@wp.info key="currentLang" var="currentLangVar" />
-<employee-list locale="${currentLangVar}" isIntranet="${isIntranet}" />
+<employee-list locale="${currentLangVar}" isIntranet="${isIntranet?string("true", "false")}" />
