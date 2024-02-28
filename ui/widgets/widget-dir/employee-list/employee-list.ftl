@@ -9,7 +9,3 @@
 <@wp.headInfo type="CSS" info="/RUBRICA-BUNDLE/static/css/cagliari.min.css" />
 <@wp.headInfo type="CSS" info="/RUBRICA-BUNDLE/static/css/sezioni.min.css" />
 <@wp.headInfo type="CSS" info="/RUBRICA-BUNDLE/static/css/interne.min.css" />
-
-<@wp.ifauthorized permission="enterBackend" var="isIntranet" />
-<@wp.info key="currentLang" var="currentLangVar" />
-<employee-list locale="${currentLangVar}" isIntranet="${isIntranet?string("true", "false")}" />
